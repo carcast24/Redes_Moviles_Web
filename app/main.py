@@ -20,4 +20,12 @@ def llamar_clientes():
     with open("../data/clientes.json", "r", encoding="utf-8") as file:
         clientes = json.load(file)
     return clientes
+@app.get("/clientes/{id_cliente}")
+def llamar_cliente(id_cliente: str):
+    with open("../data/clientes.json", "r", encoding="utf-8") as file:
+        clientes = json.load(file)
+    for cliente in clientes:
+        if cliente["id"] == id_cliente:
+            return cliente
 
+    return {"ERROR: Cliente no existe"}
