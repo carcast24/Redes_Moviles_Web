@@ -1,0 +1,20 @@
+[
+  {
+    "id": "123456",
+    "nombre": "Camilo Sexto",
+    "email": "cs@gmail.com",
+    "telefono": "3052859090"
+  },
+  {
+    "id": "45454545",
+    "nombre": "Amanda Miguel",
+    "email": "am@gmail.com",
+    "telefono": "3051244545"
+  },
+  {
+    "id": "48485754",
+    "nombre": "Jose Jose",
+    "email": "jj@gmail.com",
+    "telefono": "3124585858"
+  }
+]
